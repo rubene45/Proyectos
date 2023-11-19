@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_on_primary">
+
+    <TextView
+        android:id="@+id/textViewTexto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+
+        android:text="Importe"
+        android:textSize="100dp"
+        android:gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/buttonimporteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="siguente"
+        />
+</LinearLayout>
